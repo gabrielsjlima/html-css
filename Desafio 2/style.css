@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+iframe {
+    text-align: center;
+}
+
+a{
+    color: white;
+}

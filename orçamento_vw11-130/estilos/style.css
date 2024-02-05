@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/fundo.webp);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 98vw;
+    max-height: 100vh;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.89);
+    width: 600px;
+    margin: auto;
+}
+
+table{
+    max-width: 700px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.877);
+}
+
+th{
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+table td.produto{
+   height: 120px;
+}
+
+h2{
+    padding: 20px;
+    text-align: center;
+    color: red;
+}
+
+p{
+    background-color: white;
+    text-align: justify;
+    color: black;
+    text-indent: 30px;
+    padding: 10px;
+}
