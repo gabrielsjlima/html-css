@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    width: 98vw;
+    height: 98vh;
+}
+
+div{
+    background-color: gray;
+    border-radius: 10px;
+    min-width: 300px;
+    max-height: 1000px;
+}
+
+div img{
+    border-radius: 50px;
+}
+
+ul li{
+    background-color: white;
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+}
