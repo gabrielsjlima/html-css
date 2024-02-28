@@ -29,6 +29,16 @@ svg {
 #learning {
     background-color: hsl(47, 88%, 63%);
     color: black;
-    padding: 5px;
-    width: 50px;
+    padding: 7px 15px;
+    width: 60px;
+    text-align: left;
+    margin: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#public{
+    text-align: left;
+    margin: 15px 30px;
 }
