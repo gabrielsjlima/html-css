@@ -9,3 +9,26 @@ body {
     height: 98vh;
 }
 
+div {
+    background-color: hsl(0, 0%, 100%);
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+svg {
+    
+}
+
+#learning {
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    padding: 5px;
+    width: 50px;
+}
