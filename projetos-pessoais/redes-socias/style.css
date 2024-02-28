@@ -50,7 +50,11 @@ ul{
     padding: 5px 40px;
 }
 
-ul li{
+ul a{
+    text-decoration: none;
+}
+
+ul a li{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,15 +65,8 @@ ul li{
     background-color: hsl(0, 0%, 20%);
 }
 
-ul li:hover{
+ul a li:hover{
     background-color: hsl(69, 85%, 50%);
-}
-
-ul li a{
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
-}
-
-ul li a:hover{
     color: hsl(0, 0%, 8%);
+    font-weight: bolder;
 }
