@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: LeagueSpartan-Black;
+    src: url(fontes/LeagueSpartan-Black.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan-Regular;
+    src: url(fontes/LeagueSpartan-Regular.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan-Bold;
+    src: url(fontes/LeagueSpartan-Bold.ttf);
+}
+
+html{
+    background-image: url(imagens/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+body{
+    background-image: url(imagens/bg-pattern-bottom-desktop.svg);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#conteudo-cima{
+    display: flex;
+    margin: 150px;
+}
+
+header h1{
+    color: hsl(300, 43%, 22%);
+    font-family: LeagueSpartan-Black;
+    font-size: 50px;
+}
+
+header p{
+    font-family: LeagueSpartan-Regular;
+    color: hsl(300, 43%, 22%);
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 500px;
+    padding: 20px 30px;
+    background-color: hsl(300, 24%, 96%);
+    font-family: LeagueSpartan-Bold;
+    color: hsl(300, 43%, 22%);
+}
+
+#primeiro{
+    margin-right: 200px;
+    margin-left: 550px;
+}
+
+#segundo{
+    margin-right: 150px;
+    margin-left: 600px;
+}
+
+#terceiro{
+    margin-right: 100px;
+    margin-left: 650px;
+}
+
+ul li p{
+    margin-left: 35px;
+} 
