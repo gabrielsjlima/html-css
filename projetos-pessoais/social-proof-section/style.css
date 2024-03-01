@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: LeagueSpartan-Black;
-    src: url(fontes/LeagueSpartan-Black.ttf);
-}
-
-@font-face {
     font-family: LeagueSpartan-Regular;
     src: url(fontes/LeagueSpartan-Regular.ttf);
 }
@@ -16,6 +11,11 @@
 @font-face {
     font-family: LeagueSpartan-Bold;
     src: url(fontes/LeagueSpartan-Bold.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan-SemiBold;
+    src: url(fontes/LeagueSpartan-SemiBold.ttf);
 }
 
 html{
@@ -26,21 +26,23 @@ html{
 
 body{
     background-image: url(imagens/bg-pattern-bottom-desktop.svg);
-    width: 100vw;
-    height: 100vh;
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
 #conteudo-cima{
     display: flex;
-    margin: 150px;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-between;
 }
 
 header h1{
     color: hsl(300, 43%, 22%);
-    font-family: LeagueSpartan-Black;
-    font-size: 50px;
+    font-family: LeagueSpartan-Bold;
+    font-size: 70px;
+    font-weight: bolder;
 }
 
 header p{
@@ -57,8 +59,7 @@ ul li{
     align-items: center;
     border-radius: 5px;
     margin-top: 20px;
-    margin-left: 500px;
-    padding: 20px 30px;
+    padding: 15px 30px;
     background-color: hsl(300, 24%, 96%);
     font-family: LeagueSpartan-Bold;
     color: hsl(300, 43%, 22%);
@@ -66,19 +67,78 @@ ul li{
 
 #primeiro{
     margin-right: 200px;
-    margin-left: 550px;
 }
 
 #segundo{
     margin-right: 150px;
-    margin-left: 600px;
+    margin-left: 50px;
 }
 
 #terceiro{
     margin-right: 100px;
-    margin-left: 650px;
+    margin-left: 100px;
+}
+
+ul li i{
+    margin: 5px;
 }
 
 ul li p{
     margin-left: 35px;
-} 
+}
+
+#conteudo-baixo{
+    display: flex;
+    justify-content: center;
+}
+
+#Colton{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#Irene{
+    margin-top: 110px;
+}
+
+#Anne{
+    margin-top: 140px;
+}
+
+.quadro{
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 50px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.texto{
+    text-align: justify;
+    margin: 0 30px;
+    color: hsl(0, 0%, 100%);
+    font-family: LeagueSpartan-Regular;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+table td img{
+    padding: 10px;
+    border-radius: 50px;
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 50px;
+}
+
+table .nomes{
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+    font-family: LeagueSpartan-SemiBold;
+}
+
+table .nomes p{
+    margin-top: 10px;
+    color: hsl(333, 80%, 67%);
+    font-family: LeagueSpartan-Regular;
+}
