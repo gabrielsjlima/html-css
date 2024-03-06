@@ -26,7 +26,8 @@
         margin: 20px;
         text-align: center;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     #primeiro{
@@ -41,9 +42,11 @@
         margin: 30px;
     }
 
-    ul li i{
-        display: flex;
-        flex-direction: row;
+    ul li p{
+        margin-right: 25px;
+        margin-top: 10px;
+        font-family: LeagueSpartan-ExtraBold;
+        font-size: 20px;
     }
 
     #conteudo-baixo{

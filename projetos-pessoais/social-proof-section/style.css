@@ -18,6 +18,11 @@
     src: url(fontes/LeagueSpartan-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: LeagueSpartan-ExtraBold;
+    src: url(fontes/LeagueSpartan-ExtraBold.ttf);
+}
+
 html{
     background-image: url(imagens/bg-pattern-top-desktop.svg);
     background-repeat: no-repeat;
@@ -28,6 +33,7 @@ body{
     background-image: url(imagens/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat;
     background-position: right bottom;
+    min-width: 100vw;
 }
 
 #conteudo-cima{
@@ -42,7 +48,6 @@ header h1{
     color: hsl(300, 43%, 22%);
     font-family: LeagueSpartan-Bold;
     font-size: 70px;
-    font-weight: bolder;
 }
 
 header p{
@@ -84,7 +89,9 @@ ul li i{
 }
 
 ul li p{
+    font-family: LeagueSpartan-ExtraBold;
     margin-left: 35px;
+    font-size: 18px;
 }
 
 #conteudo-baixo{
