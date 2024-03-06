@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px){
+    
+    #conteudo-cima{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    header h1{
+        margin: 30px;
+        font-size: 60px;
+        text-align: center;
+    }
+
+    header p{
+        margin: 30px;
+        text-align: center;
+    }
+
+    ul li{
+        margin: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #primeiro{
+        margin: 30px;
+    }
+    
+    #segundo{
+        margin: 30px;
+    }
+    
+    #terceiro{
+        margin: 30px;
+    }
+
+    ul li i{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #conteudo-baixo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Colton{
+        margin: 40px;
+    }
+    
+    #Irene{
+        margin: 40px;
+        margin-top: 15px;
+    }
+    
+    #Anne{
+        margin: 40px;
+        margin-top: 15px;
+    }
+} 
