@@ -41,13 +41,10 @@ h1{
     padding-left: 20px;
 }
 
-main img{
-    position: relative;
-    top: 30px;
-    left: 95%;
-}
-
-main hr{
-    margin-top: 25px;
-    opacity: 0.2;
+.perguntas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
 }
