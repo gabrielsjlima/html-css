@@ -1,7 +1,6 @@
 const btn = document.querySelector(".btn")
 const imagem = document.querySelector(".imagem")
 const respostas = document.querySelector(".respostas")
-const container = document.getElementById("container")
 
 btn.addEventListener("click", function(){
     
@@ -12,5 +11,4 @@ btn.addEventListener("click", function(){
     }
 
     respostas.classList.toggle("mostrar")
-    container.classList.toggle("mod-container")
 })

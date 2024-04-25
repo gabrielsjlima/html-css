@@ -25,7 +25,7 @@ body{
     margin: auto;
     background-color: white;
     max-width: 400px;
-    max-height: 320px;
+    max-height: 350px;
     border-radius: 15px;
     padding: 40px;
     float: right;
@@ -42,19 +42,19 @@ h1{
 }
 
 .container-perguntas{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);   
 }
 
 .container-perguntas p{
-    margin: 15px 0;
+    margin-top: 10px;
+    padding-bottom: 15px;
 }
 
 .perguntas{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin: 17px 0px 17px 0px;
 }
 
 .perguntas button{
@@ -73,10 +73,10 @@ h1{
     display: none;
 }
 
-.mostrar{
-    display: block;
+#tirar-borda{
+    border: none;
 }
 
-.mod-container{
-    max-height: 400px;
+.mostrar{
+    display: block;
 }
