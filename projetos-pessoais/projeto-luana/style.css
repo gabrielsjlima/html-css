@@ -20,7 +20,7 @@ h1{
 p{
     color: white;
     padding-top: 10px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 span{
@@ -31,7 +31,7 @@ span{
 div#container{
     margin-top: 30px;
     background-color: white;
-    width: 400px;
+    width: 340px;
     display: flex;
     flex-flow: row wrap;
     border-radius: 10px;
