@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    padding: 40px 0px;
+}
+
+p{
+    color: white;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+span{
+    color: red;
+    padding-top: 10px;
+}
+
+div#container{
+    margin-top: 30px;
+    background-color: white;
+    width: 440px;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+div.fotos{
+    padding: 10px;
+}
+
+div.fotos img{
+    flex: auto;
+    border-radius: 20px;
+}
