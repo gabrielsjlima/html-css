@@ -31,7 +31,7 @@ span{
 div#container{
     margin-top: 30px;
     background-color: white;
-    width: 340px;
+    width: 400px;
     display: flex;
     flex-flow: row wrap;
     border-radius: 10px;
